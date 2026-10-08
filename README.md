@@ -16,20 +16,7 @@ git clone https://github.com/SonyaShust/FastaReader.git
 cd FastaReader
 ```
 
-## Использование
-
-```python
-from lib import FastaReader
-
-reader = FastaReader("code1.fasta")
-
-for seq in reader.read():
-    print(seq)
-    print(f"Длина: {len(seq)}")
-    print(seq.getalphabet())
-```
-
-## Запуск демонстрации
+## Запуск
 
 ```bash
 python3 demo.py
