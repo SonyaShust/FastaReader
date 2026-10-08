@@ -48,10 +48,11 @@ code1.fasta
 
 ## Примеры файлов
 источник: https://www.uniprot.org/
-
+белковая последовательность:
 - `code1.fasta`
 - `code2.fasta`
-
+нуклеотидная последовательность:
+- `code3.fasta`
 ## UML-диаграмма
 
 ```mermaid
