@@ -51,3 +51,24 @@ code1.fasta
 - `code1.fasta`
 - `code2.fasta`
 
+## UML-диаграмма
+
+```mermaid
+classDiagram
+    class Seq {
+        -str header
+        -str sequence
+        +__init__(header, sequence)
+        +__str__() str
+        +__len__() int
+        +getalphabet() str
+    }
+    
+    class FastaReader {
+        -str filepath
+        +__init__(filepath)
+        +read() Generator~Seq~
+    }
+    
+    FastaReader ..> Seq : creates
+```
