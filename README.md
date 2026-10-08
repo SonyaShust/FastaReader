@@ -47,6 +47,7 @@ code1.fasta
 
 
 ## Примеры файлов
+источник: https://www.uniprot.org/
 
 - `code1.fasta`
 - `code2.fasta`
