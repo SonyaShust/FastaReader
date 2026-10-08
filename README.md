@@ -16,8 +16,6 @@ git clone https://github.com/SonyaShust/FastaReader.git
 cd FastaReader
 ```
 
-Зависимостей нет — нужен только Python 3.6+.
-
 ## Использование
 
 ```python
@@ -50,6 +48,6 @@ code1.fasta
 
 ## Примеры файлов
 
-- `code1.fasta` — пример с несколькими белками.
-- `code2.fasta` — пример с нуклеотидными последовательностями.
+- `code1.fasta`
+- `code2.fasta`
 
