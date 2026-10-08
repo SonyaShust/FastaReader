@@ -35,7 +35,7 @@ for seq in reader.read():
 python3 demo.py
 ```
 
-Программа спросит путь к FASTA-файлу. Введи:
+Программа спросит путь к FASTA-файлу. введите название файла
 
 ```
 code1.fasta
